@@ -5,7 +5,7 @@
     <title>Hello My Thymeleaf app</title>
 </head>
 <body>
-    <h1 th:text="'Hello, ' + ${name} + '!'">Hello, World</h1>
+    <h1 th:text="${greeting} + ', ' + ${name} + '.'">Hello, World</h1>
 
     <p>Today is: <span th:text="${date}">Date Here</span></p>
     
