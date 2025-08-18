@@ -20,6 +20,7 @@ class ThymeleafappApplicationTests {
 	void contextLoads() {
 	}
 
+
 	@Test
 	public void saveAccounts() {
 		Account account1 = new Account();
